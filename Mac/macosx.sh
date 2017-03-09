@@ -17,16 +17,12 @@ brew install watch
 
 echo "Installing Google Chrome, please wait..."
 brew cask install google-chrome
-brew cask install 1password
+
+echo "Installing Firefox, please wait..."
+brew cask install firefox
 
 echo "Installing VLC, please wait..."
 brew cask install vlc
-
-echo "Installing Skitch, please wait..."
-brew cask install skitch
-
-echo "Installing Caffeine, please wait..."
-brew cask install caffeine
 
 echo "Installing Atom, please wait..."
 brew cask install atom
@@ -39,3 +35,16 @@ brew cask install virtualbox
 
 echo "Installing Oh-My-ZSH, please wait..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+echo "Installing slack, please wait..."
+brew cask install slack
+
+echo "Installing hipchat, please wait..."
+brew cask install hipchat
+
+echo "Installing java8, please wait..."
+brew cask install java
+
+echo "Installing intellij-idea-ce, please wait..."
+brew cask install intellij-idea-ce
+
