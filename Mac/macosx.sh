@@ -33,6 +33,9 @@ brew cask install vagrant
 echo "Installing Virtualbox, please wait..."
 brew cask install virtualbox
 
+echo "Installing iterm2, please wait..."
+brew cask install iterm2
+
 echo "Installing Oh-My-ZSH, please wait..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
