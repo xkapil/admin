@@ -48,3 +48,7 @@ brew cask install java
 echo "Installing intellij-idea-ce, please wait..."
 brew cask install intellij-idea-ce
 
+echo "Installing docker, please wait..."
+brew cask install docker
+
+
