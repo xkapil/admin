@@ -45,6 +45,9 @@ brew cask install slack
 echo "Installing hipchat, please wait..."
 brew cask install hipchat
 
+echo "Installing skype, please wait..."
+brew cask install skype
+
 echo "Installing java8, please wait..."
 brew cask install java
 
