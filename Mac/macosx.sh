@@ -48,8 +48,14 @@ brew cask install hipchat
 echo "Installing skype, please wait..."
 brew cask install skype
 
-echo "Installing java8, please wait..."
+echo "Installing java, please wait..."
 brew cask install java
+
+echo "Installing scala, please wait..."
+brew install scala
+
+echo "Installing sbt, please wait..."
+brew install sbt
 
 echo "Installing intellij-idea-ce, please wait..."
 brew cask install intellij-idea-ce
