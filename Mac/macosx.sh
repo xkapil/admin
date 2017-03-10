@@ -54,4 +54,7 @@ brew cask install intellij-idea-ce
 echo "Installing docker, please wait..."
 brew cask install docker
 
+echo "Installing google-drive, please wait..."
+brew cask install google-drive
+
 
