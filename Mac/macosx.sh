@@ -66,4 +66,5 @@ brew cask install docker
 echo "Installing google-drive, please wait..."
 brew cask install google-drive
 
-
+echo "Installing caffeine, please wait..."
+brew cask install caffeine
