@@ -68,3 +68,6 @@ brew cask install google-drive
 
 echo "Installing caffeine, please wait..."
 brew cask install caffeine
+
+echo "Installing tunnelblick, please wait..."
+brew cask install tunnelblick
