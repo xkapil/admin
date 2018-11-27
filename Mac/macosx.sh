@@ -72,8 +72,8 @@ brew cask install google-drive
 echo "Installing caffeine, please wait..."
 brew cask install caffeine
 
-echo "Installing Snappy, please wait..."
-brew cask install snappy
-
 #echo "Installing tunnelblick, please wait..."
 #brew cask install tunnelblick
+
+echo "Installing MySQL Workbench, please wait..."
+brew cask install mysqlworkbench
