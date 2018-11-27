@@ -42,23 +42,26 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 echo "Installing slack, please wait..."
 brew cask install slack
 
-echo "Installing hipchat, please wait..."
-brew cask install hipchat
+#echo "Installing hipchat, please wait..."
+#brew cask install hipchat
 
-echo "Installing skype, please wait..."
-brew cask install skype
+#echo "Installing skype, please wait..."
+#brew cask install skype
 
 echo "Installing java, please wait..."
 brew cask install java
 
-echo "Installing scala, please wait..."
-brew install scala
+#echo "Installing scala, please wait..."
+#brew install scala
 
-echo "Installing sbt, please wait..."
-brew install sbt
+#echo "Installing sbt, please wait..."
+#brew install sbt
 
-echo "Installing intellij-idea-ce, please wait..."
-brew cask install intellij-idea-ce
+#echo "Installing intellij-idea-ce, please wait..."
+#brew cask install intellij-idea-ce
+
+echo "Installing intellij-idea, please wait..."
+brew cask install intellij-idea
 
 echo "Installing docker, please wait..."
 brew cask install docker
@@ -69,5 +72,8 @@ brew cask install google-drive
 echo "Installing caffeine, please wait..."
 brew cask install caffeine
 
-echo "Installing tunnelblick, please wait..."
-brew cask install tunnelblick
+echo "Installing Snappy, please wait..."
+brew cask install snappy
+
+#echo "Installing tunnelblick, please wait..."
+#brew cask install tunnelblick
