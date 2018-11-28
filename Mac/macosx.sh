@@ -27,11 +27,11 @@ brew cask install vlc
 echo "Installing Atom, please wait..."
 brew cask install atom
 
-echo "Installing Vagrant, please wait..."
-brew cask install vagrant
+#echo "Installing Vagrant, please wait..."
+#brew cask install vagrant
 
-echo "Installing Virtualbox, please wait..."
-brew cask install virtualbox
+#echo "Installing Virtualbox, please wait..."
+#brew cask install virtualbox
 
 echo "Installing iterm2, please wait..."
 brew cask install iterm2
@@ -42,8 +42,8 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 echo "Installing slack, please wait..."
 brew cask install slack
 
-#echo "Installing hipchat, please wait..."
-#brew cask install hipchat
+echo "Installing hipchat, please wait..."
+brew cask install hipchat
 
 echo "Installing skype, please wait..."
 brew cask install skype
@@ -77,3 +77,9 @@ brew cask install caffeine
 
 echo "Installing MySQL Workbench, please wait..."
 brew cask install mysqlworkbench
+
+echo "Installing Gradle, please wait..."
+brew install gradle
+
+echo "Installing Postman, please wait..."
+brew cask install postman
