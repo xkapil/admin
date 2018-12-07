@@ -84,5 +84,8 @@ brew install gradle
 echo "Installing Postman, please wait..."
 brew cask install postman
 
+echo "Upgrading PIP, please wait..."
+pip install --upgrade pip
+
 echo "Installing AWS CLI using PIP, please wait..."
 pip install awscli --upgrade --user
