@@ -78,9 +78,6 @@ brew cask install caffeine
 echo "Installing MySQL Workbench, please wait..."
 brew cask install mysqlworkbench
 
-echo "Installing Gradle, please wait..."
-brew install gradle
-
 echo "Installing Postman, please wait..."
 brew cask install postman
 
@@ -89,3 +86,14 @@ pip install --upgrade pip --user
 
 echo "Installing AWS CLI using PIP, please wait..."
 pip install awscli --upgrade --user
+
+echo "Installing SDKMan, please wait..."
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk help
+
+echo "Installing Gradle 1.8 using SDKMan, please wait..."
+sdk i gradle 1.8
+
+echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
+sdk i gradle 4.10.3
