@@ -98,5 +98,16 @@ sdk i gradle 1.8
 echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
 sdk i gradle 4.10.3
 
+echo "Installing Java7 using SDKMan, please wait..."
+sdk install java 7.0.181-zulu
+
+echo "Installing Java9 using SDKMan, please wait..."
+sdk install java 9.0.4-open
+
+echo "Installing Java11 using SDKMan, please wait..."
+sdk install java 11.0.1-open
+
+
+
 echo "Installing SequelPro, please wait..."
 brew cask install sequel-pro
