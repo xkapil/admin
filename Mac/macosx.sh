@@ -75,8 +75,8 @@ brew cask install caffeine
 #echo "Installing tunnelblick, please wait..."
 #brew cask install tunnelblick
 
-echo "Installing MySQL Workbench, please wait..."
-brew cask install mysqlworkbench
+#echo "Installing MySQL Workbench, please wait..."
+#brew cask install mysqlworkbench
 
 echo "Installing Postman, please wait..."
 brew cask install postman
@@ -97,3 +97,6 @@ sdk i gradle 1.8
 
 echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
 sdk i gradle 4.10.3
+
+echo "Installing SequelPro, please wait..."
+brew cask install sequel-pro
