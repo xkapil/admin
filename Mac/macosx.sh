@@ -84,8 +84,11 @@ brew cask install postman
 echo "Upgrading PIP, please wait..."
 pip install --upgrade pip --user
 
-echo "Installing AWS CLI using PIP, please wait..."
-pip install awscli --upgrade --user
+# echo "Installing AWS CLI using PIP, please wait..."
+# pip install awscli --upgrade --user
+
+echo "Installing AWS CLI, please wait..."
+brew install awscli
 
 echo "Installing SDKMan, please wait..."
 curl -s "https://get.sdkman.io" | bash
