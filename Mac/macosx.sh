@@ -110,7 +110,8 @@ sdk install java 9.0.4-open
 echo "Installing Java11 using SDKMan, please wait..."
 sdk install java 11.0.1-open
 
-
-
 echo "Installing SequelPro, please wait..."
 brew cask install sequel-pro
+
+echo "Installing webex-teams, please wait..."
+brew cask install webex-teams
