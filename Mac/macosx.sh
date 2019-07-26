@@ -115,3 +115,6 @@ brew cask install sequel-pro
 
 echo "Installing webex-teams, please wait..."
 brew cask install webex-teams
+
+echo "Installing clipy, please wait..."
+brew cask install clipy
