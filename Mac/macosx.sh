@@ -27,6 +27,9 @@ brew cask install vlc
 echo "Installing Atom, please wait..."
 brew cask install atom
 
+echo "Installing Atom's compare-files plugin, please wait..."
+apm install compare-files
+
 #echo "Installing Vagrant, please wait..."
 #brew cask install vagrant
 
