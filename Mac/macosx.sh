@@ -116,8 +116,8 @@ sdk install java 11.0.1-open
 echo "Installing SequelPro, please wait..."
 brew cask install sequel-pro
 
-echo "Installing webex-teams, please wait..."
-brew cask install webex-teams
-
 echo "Installing clipy, please wait..."
 brew cask install clipy
+
+echo "Installing vnc viewer, please wait..."
+brew cask install vnc-viewer
