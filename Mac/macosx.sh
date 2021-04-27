@@ -109,6 +109,7 @@ echo "Installing AWS CLI, please wait..."
 brew install awscli
 
 echo "Installing SDKMan, please wait..."
+# last time it didn't work with VPN as one of the url was blocked from where the archive is downloaded
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk help
