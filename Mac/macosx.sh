@@ -121,3 +121,12 @@ brew cask install clipy
 
 echo "Installing vnc viewer, please wait..."
 brew cask install vnc-viewer
+
+echo "Installing vs code, please wait..."
+brew install --cask visual-studio-code
+
+echo "Installing tfenv, please wait..."
+brew install tfenv
+
+echo "Installing terraform 0.11.14, please wait..."
+tfenv install 0.11.14
