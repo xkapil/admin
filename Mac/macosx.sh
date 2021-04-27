@@ -3,8 +3,8 @@
 echo "Installing HomeBrew, please wait..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "Installing HomeBrew Cask, please wait..."
-brew install caskroom/cask/brew-cask
+#echo "Installing HomeBrew Cask, please wait..."
+#brew install caskroom/cask/brew-cask
 
 echo "Installing ssh-copy-id command, please wait..."
 brew install ssh-copy-id
@@ -16,19 +16,19 @@ echo "Installing Watch command, please wait..."
 brew install watch
 
 echo "Installing Google Chrome, please wait..."
-brew cask install google-chrome
+brew install --cask google-chrome
 
 echo "Installing Firefox, please wait..."
-brew cask install firefox
+brew install --cask firefox
 
 echo "Installing Opera, please wait..."
-brew cask install opera
+brew install --cask opera
 
 echo "Installing VLC, please wait..."
-brew cask install vlc
+brew install --cask vlc
 
 echo "Installing Atom, please wait..."
-brew cask install atom
+brew install --cask atom
 
 echo "Installing Atom's compare-files plugin, please wait..."
 apm install compare-files
@@ -52,13 +52,13 @@ apm install language-terraform
 #brew cask install virtualbox
 
 echo "Installing iterm2, please wait..."
-brew cask install iterm2
+brew install --cask iterm2
 
 echo "Installing Oh-My-ZSH, please wait..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 echo "Installing slack, please wait..."
-brew cask install slack
+brew install --cask slack
 
 #echo "Installing hipchat, please wait..."
 #brew cask install hipchat
@@ -66,8 +66,8 @@ brew cask install slack
 #echo "Installing skype, please wait..."
 #brew cask install skype
 
-echo "Installing java, please wait..."
-brew cask install java
+#echo "Installing java, please wait..."
+#brew install --cask java
 
 #echo "Installing scala, please wait..."
 #brew install scala
@@ -79,16 +79,16 @@ brew cask install java
 #brew cask install intellij-idea-ce
 
 echo "Installing intellij-idea, please wait..."
-brew cask install intellij-idea
+brew install --cask intellij-idea
 
 echo "Installing docker, please wait..."
-brew cask install docker
+brew install --cask docker
 
 echo "Installing google-drive, please wait..."
-brew cask install google-drive
+brew install --cask google-drive
 
 echo "Installing caffeine, please wait..."
-brew cask install caffeine
+brew install --cask caffeine
 
 #echo "Installing tunnelblick, please wait..."
 #brew cask install tunnelblick
@@ -97,7 +97,7 @@ brew cask install caffeine
 #brew cask install mysqlworkbench
 
 echo "Installing Postman, please wait..."
-brew cask install postman
+brew install --cask postman
 
 echo "Upgrading PIP, please wait..."
 pip install --upgrade pip --user
@@ -132,13 +132,13 @@ echo "Installing Java15 using SDKMan, please wait..."
 sdk install java 15.0.0.hs-adpt
 
 echo "Installing SequelPro, please wait..."
-brew cask install sequel-pro
+brew install --cask sequel-pro
 
 echo "Installing clipy, please wait..."
-brew cask install clipy
+brew install --cask clipy
 
 echo "Installing vnc viewer, please wait..."
-brew cask install vnc-viewer
+brew install --cask vnc-viewer
 
 echo "Installing vs code, please wait..."
 brew install --cask visual-studio-code
