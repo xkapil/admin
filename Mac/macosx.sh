@@ -21,6 +21,9 @@ brew cask install google-chrome
 echo "Installing Firefox, please wait..."
 brew cask install firefox
 
+echo "Installing Opera, please wait..."
+brew cask install opera
+
 echo "Installing VLC, please wait..."
 brew cask install vlc
 
@@ -29,6 +32,18 @@ brew cask install atom
 
 echo "Installing Atom's compare-files plugin, please wait..."
 apm install compare-files
+
+echo "Installing Atom's tasks plugin, please wait..."
+apm install tasks
+
+echo "Installing Atom's pretty-json plugin, please wait..."
+apm install pretty-json
+
+echo "Installing Atom's markdown-to-pdf plugin, please wait..."
+apm install markdown-to-pdf
+
+echo "Installing Atom's language-terraform plugin, please wait..."
+apm install language-terraform
 
 #echo "Installing Vagrant, please wait..."
 #brew cask install vagrant
@@ -45,11 +60,11 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 echo "Installing slack, please wait..."
 brew cask install slack
 
-echo "Installing hipchat, please wait..."
-brew cask install hipchat
+#echo "Installing hipchat, please wait..."
+#brew cask install hipchat
 
-echo "Installing skype, please wait..."
-brew cask install skype
+#echo "Installing skype, please wait..."
+#brew cask install skype
 
 echo "Installing java, please wait..."
 brew cask install java
@@ -98,20 +113,23 @@ curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk help
 
-echo "Installing Gradle 1.8 using SDKMan, please wait..."
-sdk i gradle 1.8
+#echo "Installing Gradle 1.8 using SDKMan, please wait..."
+#sdk i gradle 1.8
 
-echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
-sdk i gradle 4.10.3
+#echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
+#sdk i gradle 4.10.3
 
 echo "Installing Java7 using SDKMan, please wait..."
 sdk install java 7.0.181-zulu
 
-echo "Installing Java9 using SDKMan, please wait..."
-sdk install java 9.0.4-open
+#echo "Installing Java9 using SDKMan, please wait..."
+#sdk install java 9.0.4-open
 
 echo "Installing Java11 using SDKMan, please wait..."
 sdk install java 11.0.1-open
+
+echo "Installing Java15 using SDKMan, please wait..."
+sdk install java 15.0.0.hs-adpt
 
 echo "Installing SequelPro, please wait..."
 brew cask install sequel-pro
