@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing HomeBrew, please wait..."
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "Installing HomeBrew Cask, please wait..."
 brew install caskroom/cask/brew-cask
