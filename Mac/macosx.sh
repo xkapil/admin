@@ -15,11 +15,11 @@ brew install wget
 echo "Installing Watch command, please wait..."
 brew install watch
 
-echo "Installing Google Chrome, please wait..."
-brew install --cask google-chrome
+#echo "Installing Google Chrome, please wait..."
+#brew install --cask google-chrome
 
-echo "Installing Firefox, please wait..."
-brew install --cask firefox
+#echo "Installing Firefox, please wait..."
+#brew install --cask firefox
 
 echo "Installing Opera, please wait..."
 brew install --cask opera
@@ -33,8 +33,8 @@ brew install --cask atom
 echo "Installing Atom's compare-files plugin, please wait..."
 apm install compare-files
 
-echo "Installing Atom's tasks plugin, please wait..."
-apm install tasks
+#echo "Installing Atom's tasks plugin, please wait..."
+#apm install tasks
 
 echo "Installing Atom's pretty-json plugin, please wait..."
 apm install pretty-json
@@ -57,8 +57,8 @@ brew install --cask iterm2
 echo "Installing Oh-My-ZSH, please wait..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
-echo "Installing slack, please wait..."
-brew install --cask slack
+#echo "Installing slack, please wait..."
+#brew install --cask slack
 
 #echo "Installing hipchat, please wait..."
 #brew cask install hipchat
@@ -75,17 +75,17 @@ brew install --cask slack
 #echo "Installing sbt, please wait..."
 #brew install sbt
 
-#echo "Installing intellij-idea-ce, please wait..."
-#brew cask install intellij-idea-ce
+echo "Installing intellij-idea-ce, please wait..."
+brew cask install intellij-idea-ce
 
-echo "Installing intellij-idea, please wait..."
-brew install --cask intellij-idea
+#echo "Installing intellij-idea, please wait..."
+#brew install --cask intellij-idea
 
 echo "Installing docker, please wait..."
 brew install --cask docker
 
-echo "Installing google-drive, please wait..."
-brew install --cask google-drive
+#echo "Installing google-drive, please wait..."
+#brew install --cask google-drive
 
 echo "Installing caffeine, please wait..."
 brew install --cask caffeine
@@ -132,20 +132,20 @@ sdk install java 11.0.1-open
 echo "Installing Java15 using SDKMan, please wait..."
 sdk install java 15.0.0.hs-adpt
 
-echo "Installing SequelPro, please wait..."
-brew install --cask sequel-pro
+#echo "Installing SequelPro, please wait..."
+#brew install --cask sequel-pro
 
 echo "Installing clipy, please wait..."
 brew install --cask clipy
 
-echo "Installing vnc viewer, please wait..."
-brew install --cask vnc-viewer
+#echo "Installing vnc viewer, please wait..."
+#brew install --cask vnc-viewer
 
 echo "Installing vs code, please wait..."
 brew install --cask visual-studio-code
 
-echo "Installing tfenv, please wait..."
-brew install tfenv
+#echo "Installing tfenv, please wait..."
+#brew install tfenv
 
-echo "Installing terraform 0.11.14, please wait..."
-tfenv install 0.11.14
+#echo "Installing terraform 0.11.14, please wait..."
+#tfenv install 0.11.14
