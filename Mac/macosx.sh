@@ -46,10 +46,10 @@ echo "Installing Atom's language-terraform plugin, please wait..."
 apm install language-terraform
 
 #echo "Installing Vagrant, please wait..."
-#brew cask install vagrant
+#brew install --cask vagrant
 
 #echo "Installing Virtualbox, please wait..."
-#brew cask install virtualbox
+#brew install --cask virtualbox
 
 echo "Installing iterm2, please wait..."
 brew install --cask iterm2
@@ -61,10 +61,10 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 #brew install --cask slack
 
 #echo "Installing hipchat, please wait..."
-#brew cask install hipchat
+#brew install --cask hipchat
 
 #echo "Installing skype, please wait..."
-#brew cask install skype
+#brew install --cask skype
 
 #echo "Installing java, please wait..."
 #brew install --cask java
@@ -76,7 +76,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 #brew install sbt
 
 echo "Installing intellij-idea-ce, please wait..."
-brew cask install intellij-idea-ce
+brew install --cask intellij-idea-ce
 
 #echo "Installing intellij-idea, please wait..."
 #brew install --cask intellij-idea
@@ -91,19 +91,16 @@ echo "Installing caffeine, please wait..."
 brew install --cask caffeine
 
 #echo "Installing tunnelblick, please wait..."
-#brew cask install tunnelblick
+#brew install --cask tunnelblick
 
 #echo "Installing MySQL Workbench, please wait..."
-#brew cask install mysqlworkbench
+#brew install --cask mysqlworkbench
 
 echo "Installing Postman, please wait..."
 brew install --cask postman
 
 echo "Upgrading PIP, please wait..."
 pip install --upgrade pip --user
-
-# echo "Installing AWS CLI using PIP, please wait..."
-# pip install awscli --upgrade --user
 
 echo "Installing AWS CLI, please wait..."
 brew install awscli
