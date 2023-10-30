@@ -156,4 +156,6 @@ brew install --cask whatsapp
 echo "Installing JS Stuff Starts"
 echo "Installing Node Version Manager, please wait..."
 brew install nvm
+echo "Installing latest version of Node, please wait..."
+nvm install node
 echo "Installing JS Stuff Ends"
