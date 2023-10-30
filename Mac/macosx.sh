@@ -141,8 +141,12 @@ brew install --cask clipy
 echo "Installing vs code, please wait..."
 brew install --cask visual-studio-code
 
+echo "Installing whatsapp, please wait..."
+brew install --cask whatsapp
+
 #echo "Installing tfenv, please wait..."
 #brew install tfenv
 
 #echo "Installing terraform 0.11.14, please wait..."
 #tfenv install 0.11.14
+
