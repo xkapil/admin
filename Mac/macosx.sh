@@ -141,6 +141,9 @@ brew install --cask clipy
 echo "Installing vs code, please wait..."
 brew install --cask visual-studio-code
 
+echo "Installing vs code thunder-client plugin, please wait..."
+code --install-extension rangav.vscode-thunder-client --force
+
 echo "Installing whatsapp, please wait..."
 brew install --cask whatsapp
 
