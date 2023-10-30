@@ -153,3 +153,7 @@ brew install --cask whatsapp
 #echo "Installing terraform 0.11.14, please wait..."
 #tfenv install 0.11.14
 
+echo "Installing JS Stuff Starts"
+echo "Installing Node Version Manager, please wait..."
+brew install nvm
+echo "Installing JS Stuff Ends"
