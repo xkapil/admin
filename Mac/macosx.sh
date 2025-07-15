@@ -19,13 +19,13 @@ brew install watch
 #brew install --cask google-chrome
 
 echo "Installing Firefox, please wait..."
-brew install --cask firefox
+brew install firefox
 
 echo "Installing Opera, please wait..."
-brew install --cask opera
+brew install opera
 
 echo "Installing VLC, please wait..."
-brew install --cask vlc
+brew install vlc
 
 #echo "Installing Atom, please wait..."
 #brew install --cask atom
@@ -52,7 +52,7 @@ brew install --cask vlc
 #brew install --cask virtualbox
 
 echo "Installing iterm2, please wait..."
-brew install --cask iterm2
+brew install iterm2
 
 echo "Installing Oh-My-ZSH, please wait..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
@@ -76,7 +76,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 #brew install sbt
 
 echo "Installing intellij-idea-ce, please wait..."
-brew install --cask intellij-idea-ce
+brew install intellij-idea-ce
 
 #echo "Installing intellij-idea, please wait..."
 #brew install --cask intellij-idea
@@ -88,7 +88,7 @@ brew install --cask intellij-idea-ce
 #brew install --cask google-drive
 
 echo "Installing caffeine, please wait..."
-brew install --cask caffeine
+brew install caffeine
 
 #echo "Installing tunnelblick, please wait..."
 #brew install --cask tunnelblick
@@ -133,19 +133,19 @@ sdk help
 #brew install --cask sequel-pro
 
 echo "Installing clipy, please wait..."
-brew install --cask clipy
+brew install clipy
 
 #echo "Installing vnc viewer, please wait..."
 #brew install --cask vnc-viewer
 
 echo "Installing vs code, please wait..."
-brew install --cask visual-studio-code
+brew install visual-studio-code
 
 echo "Installing vs code thunder-client plugin, please wait..."
 code --install-extension rangav.vscode-thunder-client --force
 
 echo "Installing whatsapp, please wait..."
-brew install --cask whatsapp
+brew install whatsapp
 
 echo "Installing Notion, please wait..."
 brew install notion
