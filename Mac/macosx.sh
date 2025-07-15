@@ -18,8 +18,8 @@ brew install watch
 #echo "Installing Google Chrome, please wait..."
 #brew install --cask google-chrome
 
-#echo "Installing Firefox, please wait..."
-#brew install --cask firefox
+echo "Installing Firefox, please wait..."
+brew install --cask firefox
 
 echo "Installing Opera, please wait..."
 brew install --cask opera
@@ -27,23 +27,23 @@ brew install --cask opera
 echo "Installing VLC, please wait..."
 brew install --cask vlc
 
-echo "Installing Atom, please wait..."
-brew install --cask atom
+#echo "Installing Atom, please wait..."
+#brew install --cask atom
 
-echo "Installing Atom's compare-files plugin, please wait..."
-apm install compare-files
+#echo "Installing Atom's compare-files plugin, please wait..."
+#apm install compare-files
 
 #echo "Installing Atom's tasks plugin, please wait..."
 #apm install tasks
 
-echo "Installing Atom's pretty-json plugin, please wait..."
-apm install pretty-json
+#echo "Installing Atom's pretty-json plugin, please wait..."
+#apm install pretty-json
 
-echo "Installing Atom's markdown-to-pdf plugin, please wait..."
-apm install markdown-to-pdf
+#echo "Installing Atom's markdown-to-pdf plugin, please wait..."
+#apm install markdown-to-pdf
 
-echo "Installing Atom's language-terraform plugin, please wait..."
-apm install language-terraform
+#echo "Installing Atom's language-terraform plugin, please wait..."
+#apm install language-terraform
 
 #echo "Installing Vagrant, please wait..."
 #brew install --cask vagrant
@@ -81,8 +81,8 @@ brew install --cask intellij-idea-ce
 #echo "Installing intellij-idea, please wait..."
 #brew install --cask intellij-idea
 
-echo "Installing docker, please wait..."
-brew install --cask docker
+#echo "Installing docker, please wait..."
+#brew install --cask docker
 
 #echo "Installing google-drive, please wait..."
 #brew install --cask google-drive
@@ -96,8 +96,8 @@ brew install --cask caffeine
 #echo "Installing MySQL Workbench, please wait..."
 #brew install --cask mysqlworkbench
 
-echo "Installing Postman, please wait..."
-brew install --cask postman
+#echo "Installing Postman, please wait..."
+#brew install --cask postman
 
 echo "Upgrading PIP, please wait..."
 pip install --upgrade pip --user
@@ -117,17 +117,17 @@ sdk help
 #echo "Installing Gradle 4.10.3 using SDKMan, please wait..."
 #sdk i gradle 4.10.3
 
-echo "Installing Java7 using SDKMan, please wait..."
-sdk install java 7.0.181-zulu
+#echo "Installing Java7 using SDKMan, please wait..."
+#sdk install java 7.0.181-zulu
 
 #echo "Installing Java9 using SDKMan, please wait..."
 #sdk install java 9.0.4-open
 
-echo "Installing Java11 using SDKMan, please wait..."
-sdk install java 11.0.1-open
+#echo "Installing Java11 using SDKMan, please wait..."
+#sdk install java 11.0.1-open
 
-echo "Installing Java15 using SDKMan, please wait..."
-sdk install java 15.0.0.hs-adpt
+#echo "Installing Java15 using SDKMan, please wait..."
+#sdk install java 15.0.0.hs-adpt
 
 #echo "Installing SequelPro, please wait..."
 #brew install --cask sequel-pro
@@ -147,15 +147,19 @@ code --install-extension rangav.vscode-thunder-client --force
 echo "Installing whatsapp, please wait..."
 brew install --cask whatsapp
 
+echo "Installing Notion, please wait..."
+brew install notion
+
+
 #echo "Installing tfenv, please wait..."
 #brew install tfenv
 
 #echo "Installing terraform 0.11.14, please wait..."
 #tfenv install 0.11.14
 
-echo "Installing JS Stuff Starts"
-echo "Installing Node Version Manager, please wait..."
-brew install nvm
-echo "Installing latest version of Node, please wait..."
-nvm install node
-echo "Installing JS Stuff Ends"
+#echo "Installing JS Stuff Starts"
+#echo "Installing Node Version Manager, please wait..."
+#brew install nvm
+#echo "Installing latest version of Node, please wait..."
+#nvm install node
+#echo "Installing JS Stuff Ends"
